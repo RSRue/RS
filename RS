@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReSHAPE Apparel</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #0f0f0f;
+      color: white;
+      font-family: 'Inter', sans-serif;
+    }
+    .card-hover:hover {
+      transform: scale(1.03);
+      transition: transform 0.3s ease;
+    }
+  </style>
+</head>
+<body class="px-4 md:px-16 py-10">
+  <header class="mb-10 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold mb-2">ReSHAPE Apparel</h1>
+    <p class="text-gray-400 text-lg">Redefine Your Style – Premium Streetwear Tees</p>
+  </header>
+
+  <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- Shirt Cards -->
+    <div class="card-hover bg-gray-900 rounded-xl overflow-hidden shadow-lg border border-gray-700">
+      <img src="https://i.imgur.com/Lzqdcwu.jpg" alt="White Tee" class="w-full h-64 object-cover">
+      <div class="p-4">
+        <h2 class="text-xl font-semibold">ReSHAPE REDEFINE YOUR STYLE (White)</h2>
+        <p class="text-sm text-gray-400 mb-2">Oversized Tee</p>
+        <span class="text-white font-bold">₱749</span>
+      </div>
+    </div>
+
+    <div class="card-hover bg-gray-900 rounded-xl overflow-hidden shadow-lg border border-gray-700">
+      <img src="https://i.imgur.com/xi0L2xE.jpg" alt="Black Tee" class="w-full h-64 object-cover">
+      <div class="p-4">
+        <h2 class="text-xl font-semibold">ReSHAPE REDEFINE YOUR STYLE (Black)</h2>
+        <p class="text-sm text-gray-400 mb-2">Oversized Tee</p>
+        <span class="text-white font-bold">₱749</span>
+      </div>
+    </div>
+
+    <div class="card-hover bg-gray-900 rounded-xl overflow-hidden shadow-lg border border-gray-700">
+      <img src="https://i.imgur.com/dbtMddA.jpg" alt="Judgement Black" class="w-full h-64 object-cover">
+      <div class="p-4">
+        <h2 class="text-xl font-semibold">ReSHAPE Judgement (Black)</h2>
+        <p class="text-sm text-gray-400 mb-2">Oversized Tee</p>
+        <span class="text-white font-bold">₱749</span>
+      </div>
+    </div>
+
+    <div class="card-hover bg-gray-900 rounded-xl overflow-hidden shadow-lg border border-gray-700">
+      <img src="https://i.imgur.com/I4zjjoU.jpg" alt="Judgement White" class="w-full h-64 object-cover">
+      <div class="p-4">
+        <h2 class="text-xl font-semibold">ReSHAPE Judgement (White)</h2>
+        <p class="text-sm text-gray-400 mb-2">Oversized Tee</p>
+        <span class="text-white font-bold">₱749</span>
+      </div>
+    </div>
+
+    <div class="card-hover bg-gray-900 rounded-xl overflow-hidden shadow-lg border border-gray-700">
+      <img src="https://i.imgur.com/BZvJg93.jpg" alt="Loyalty Black" class="w-full h-64 object-cover">
+      <div class="p-4">
+        <h2 class="text-xl font-semibold">ReSHAPE Loyalty (Black)</h2>
+        <p class="text-sm text-gray-400 mb-2">Oversized Tee</p>
+        <span class="text-white font-bold">₱749</span>
+      </div>
+    </div>
+
+    <div class="card-hover bg-gray-900 rounded-xl overflow-hidden shadow-lg border border-gray-700">
+      <img src="https://i.imgur.com/1yZhFDg.jpg" alt="Celestial Black" class="w-full h-64 object-cover">
+      <div class="p-4">
+        <h2 class="text-xl font-semibold">ReSHAPE Celestial (Black)</h2>
+        <p class="text-sm text-gray-400 mb-2">Oversized Tee</p>
+        <span class="text-white font-bold">₱749</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="mt-16 text-center text-gray-500 text-sm">
+    &copy; 2025 ReSHAPE Apparel. All rights reserved.
+  </footer>
+</body>
+</html>
